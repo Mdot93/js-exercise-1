@@ -1,6 +1,139 @@
 *{
-	background-color:blue;
+	background-color:#800000;
 	box-sizing: border-box;
 	margin: 0;
 	padding:0;
+}
+
+body{
+	padding-top:50px;
+}
+h2{
+	text-align: center;	
+}
+
+#about{
+	color:purple;
+
+}
+
+.top-nav{
+	display:flex;
+	background:#000;
+	height:50px;
+	align-items: center;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+}
+
+.top-nav a {
+color:black;
+text-decoration:none; 	
+}
+
+.top-nav a:hover{
+color: #54FF9F;
+	border-bottom: 3px solid #800000;
+}
+
+.brand-text {
+	font-size:30px;
+	margin-left: 15px;
+}
+.top-nav-list{
+	display: flex;
+	list-style: none;
+	margin-left: auto;
+}	
+.top-nav-list li{
+	margin: 0px 15px;
+	
+}
+
+.top-nav-list a{
+	padding:5px;
+}
+
+.full-screen-bg{
+	height:calc(100vh - 50px);
+	width:100%;
+	background:blue;
+	background: url(../images/micbig.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+     align-items: center;
+     color:#1485c3; 
+     transition:background-image.5s; 
+}
+.flex-row {
+display:flex;
+
+}
+.col-4-2-1{
+width:23%
+margin:1%;
+padding: 10px;
+}
+
+
+.circle{
+	border-radius: 100%;
+	height:;
+	width: 50%;
+}
+
+
+.circle{
+	border-radius:100%
+	height:;
+	width:50%;
+}
+
+.circle{
+	border-radius: 100%
+	height:;
+	width:50%;
+
+}
+
+.circle{
+	border-radius: 100%
+	height:;
+	width:50%;
+
+}
+
+
+.circle{
+border-radius:100%;
+height:;
+width:50%;
+}
+
+@media (max-width:1200px) {
+	.full-screen-bg{
+		background-image:url("../images/medium-bo.jpg");
+	}
+	.flex-row{
+		flex-wrap: wrap;
+	}
+
+	.col-4-2-1{
+		width:48%
+
+
+	}
+	 img-circle{
+border-radius:50%;
+
+	}
+}
+@media (max-width: 600px) {
+	.full-screen-bg{
+		background-image: url("../images/smallart.jpg");
+	}
 }
